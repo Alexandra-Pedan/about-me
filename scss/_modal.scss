@@ -1,0 +1,72 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  background: $modal-bgd-dark;
+  z-index: 3;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-mobile-menu {
+  background: $c-light;
+}
+
+.modal-mobile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.mobile-menu-container {
+  height: 70%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.modal-close-btn {
+  font-size: 18px;
+  position: absolute;
+  color: $c-grey-blue;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.body-scroll-disable {
+  overflow: hidden;
+}
+
+// * MY VIDEO MODAL */
+
+.my-video-content {
+  width: 100%;
+}
+
+.my-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 10px;
+}
+
+.my-video-close-btn {
+  // background: $c-light;
+  width: 18px;
+  position: absolute;
+  color: $c-grey-blue;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}

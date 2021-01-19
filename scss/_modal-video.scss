@@ -1,0 +1,61 @@
+.my-video-content {
+  width: 100%;
+}
+
+.my-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.my-video-close-btn {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  fill: $c-light;
+  // fill: #000000;
+  cursor: pointer;
+  outline: none;
+  background-position: center;
+  // background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  // !!!!!!!!!
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  background: $modal-bgd-dark;
+  z-index: 3;
+  // position: relative;
+  // visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  // visibility: visible;
+  pointer-events: all;
+}
+
+.modal-area-bgd {
+  background: rgba(20, 29, 45, 0.8);
+}

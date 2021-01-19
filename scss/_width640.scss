@@ -1,0 +1,80 @@
+@media only screen and (min-width: 640px) {
+  .mobile-element {
+    display: none;
+  }
+  .tablet-element {
+    display: block;
+  }
+
+  .desktop-element {
+    display: none;
+  }
+
+  .container {
+    min-width: 640px;
+    padding: 70px 20px;
+  }
+  .front-page-my-name {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 18px;
+  }
+
+  .front-page-profession {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 66px;
+    margin-bottom: 25px;
+  }
+  .front-page-description {
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .front-page-text {
+    width: 390px;
+  }
+  .front-page-a {
+    padding: 20px 85px;
+  }
+  .profession-part-1 {
+    margin-right: 40px;
+  }
+  .profession-part-2 {
+    margin-left: 40px;
+  }
+  .front-page-my-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    flex-direction: row;
+  }
+  .front-page-about-me-container {
+    align-items: flex-start;
+  }
+  .front-page-my-photo {
+    margin-right: 35px;
+  }
+  .front-page-my-decr {
+    text-align: left;
+  }
+
+  .footer-my-info {
+    text-align: left;
+  }
+  .footer-main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-contacts {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .footer {
+    .container {
+      align-items: flex-start;
+    }
+  }
+}

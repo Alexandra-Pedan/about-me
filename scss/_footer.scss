@@ -1,0 +1,53 @@
+.footer-my-name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: $txt-c-dark;
+  margin: 0;
+  text-align: center;
+}
+.footer-my-profession {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.footer-my-tel {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  color: $txt-c-dark;
+  margin-bottom: 15px;
+}
+
+.footer-my-mail {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: $txt-c-dark;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links-item {
+  width: 25px;
+  height: 25px;
+  fill: #233349;
+}
+
+.social-links-item-link {
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+.social-links-item-link:last-child {
+  margin-right: 0;
+}

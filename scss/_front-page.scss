@@ -1,0 +1,140 @@
+.front-page-my-photo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.front-page-my-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: $txt-c-accent;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.front-page-profession {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: $txt-c-light;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.front-page-description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $txt-c-light;
+  margin-bottom: 20px;
+}
+
+.front-page-gallery-btn {
+  width: 387px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.accent-btn {
+  //   background: $c-accent;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $c-light;
+  padding: 20px 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: $animation-transition;
+}
+
+.front-page-a {
+  background: $c-accent;
+  padding: 20px 35px;
+  margin-bottom: 40px;
+}
+.front-page-text {
+  width: 320px;
+}
+
+.front-page-a:hover {
+  outline: 1px solid $c-accent;
+  background: transparent;
+  color: $txt-c-accent;
+}
+
+.front-page-main-info,
+.front-page-my-info,
+.front-page-about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.front-page-my-decr {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $txt-c-light;
+  margin: 0 0 15px 0;
+}
+
+.front-page-my-video-btn {
+  border: 2px solid $c-accent;
+  color: $txt-c-accent;
+  background: transparent;
+  padding: 10px 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  cursor: pointer;
+  transition: $animation-transition;
+}
+
+.front-page-my-video-btn:hover {
+  background: $c-accent;
+  color: $txt-c-light;
+}
+
+.experience-title {
+  width: 240px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $txt-c-light;
+  margin: 0 0 20px 0;
+}
+
+.experience-text {
+  color: $txt-c-light;
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 40px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.play-icon {
+  width: 9px;
+  height: 9px;
+  font-size: 9px;
+  margin-right: 7px;
+  fill: $c-accent;
+}

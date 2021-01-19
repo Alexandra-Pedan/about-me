@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1000px) {
+  .container {
+    max-width: 1270px;
+  }
+  .mobile-element {
+    display: none;
+  }
+
+  .desktop-element {
+    display: block !important;
+  }
+
+  .front-page-profession {
+    font-size: 70px;
+    line-height: 84px;
+  }
+  .front-page-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    // justify-content: space-around;
+
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+  .front-page-my-photo {
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+    right: 10px;
+    bottom: -30px;
+  }
+  .experience-wrapper {
+    order: 1;
+    // margin-right: 160px;
+  }
+  .front-page-main-info {
+    order: 2;
+    // margin-right: 160px;
+    z-index: 2;
+  }
+  .front-page-about-me-container {
+    z-index: 2;
+  }
+  .front-page-my-info {
+    order: 3;
+  }
+
+  .footer {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-main-content {
+      width: calc(50% + 100px);
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

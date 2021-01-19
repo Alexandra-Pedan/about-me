@@ -1,0 +1,37 @@
+@import "./utils/_normalize.scss";
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&display=swap");
+@font-face {
+  font-family: "Acrom";
+  src: url("fonts/acrom400.eot");
+  src: local("☺"), url("fonts/acrom400.woff") format("woff"),
+    url("fonts/acrom400.ttf") format("truetype"),
+    url("fonts/acrom400.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("fonts/acrom600.eot");
+  src: local("☺"), url("fonts/acrom600.woff") format("woff"),
+    url("fonts/acrom600.ttf") format("truetype"),
+    url("fonts/acrom600.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("fonts/acrom800.eot");
+  src: local("☺"), url("fonts/acrom800.woff") format("woff"),
+    url("fonts/acrom800.ttf") format("truetype"),
+    url("fonts/acrom800.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@import "./utils/_variables.scss";
+@import "./_container.scss";
+@import "./_front-page.scss";
+@import "./_modal-video.scss";
+@import "./_footer.scss";
+@import "./_width1000.scss";
+@import "./_width640.scss";
