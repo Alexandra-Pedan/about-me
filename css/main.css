@@ -489,8 +489,8 @@ body {
     position: absolute;
     width: 250px;
     z-index: 1;
-    right: 10px;
-    bottom: -30px;
+    right: -30px;
+    bottom: 60px;
   }
   .experience-wrapper {
     -webkit-box-ordinal-group: 2;
@@ -585,10 +585,6 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 60px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
   .front-page-about-me-container {
     -webkit-box-align: start;
